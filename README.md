@@ -1,4 +1,4 @@
-#Distributed System Project
+# Distributed System Project
 
 ###This project implements a distributed system architecture using multiple server nodes with replicated state managed through the Raft consensus algorithm. The servers act as replicas, maintaining consistency through Raft to provide fault tolerance and high availability.
 Overview
@@ -9,7 +9,7 @@ Overview
     Manages cluster membership changes like server additions and removals through Raft.
     Implements log compaction to truncate obsolete entries and support indefinite operation.
 
-##Future Work
+## Future Work
 
     Integrate decentralized oracle nodes to provide external data and events to the system.
     Explore blockchain technologies like permissioned chains to augment the replicated log with cryptographic guarantees.
@@ -20,4 +20,4 @@ Overview
     Instrument comprehensive metrics, logging, and dashboards for observability.
     Optimize performance through caching, read replicas, and sharding strategies.
 
-###This distributed system architecture provides a scalable and resilient backend for services needing strong consistency guarantees and high availability. The project is being actively extended to leverage new technologies in distributed systems, blockchain, and cloud-native deployment.
+### This distributed system architecture provides a scalable and resilient backend for services needing strong consistency guarantees and high availability. The project is being actively extended to leverage new technologies in distributed systems, blockchain, and cloud-native deployment.
