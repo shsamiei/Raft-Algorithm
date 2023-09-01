@@ -1,6 +1,6 @@
 # Distributed System Project
 
-###This project implements a distributed system architecture using multiple server nodes with replicated state managed through the Raft consensus algorithm. The servers act as replicas, maintaining consistency through Raft to provide fault tolerance and high availability.
+### This project implements a distributed system architecture using multiple server nodes with replicated state managed through the Raft consensus algorithm. The servers act as replicas, maintaining consistency through Raft to provide fault tolerance and high availability.
 Overview
 
     Implemented a Raft consensus group between server nodes to manage replicated log and state. Servers can join the group as followers and participate in leader election.
